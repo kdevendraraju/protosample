@@ -1,0 +1,25 @@
+{
+  "name": "protractor-sample",
+  "version": "0.0.1",
+  "description": "A sample working protractor project with minimum code required",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "before-test": "webdriver-manager update",
+    "test": "protractor tmp/config.js"
+  },
+  "author": "Easy",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "latest",
+    "jasmine-spec-reporter": "6.0.0",
+    "protractor": "^7.0.0",
+    "protractor-beautiful-reporter": "1.3.6",
+    "ts-node": "9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.6.4",
+    "@types/jasminewd2": "^2.0.8"
+  }
+}
