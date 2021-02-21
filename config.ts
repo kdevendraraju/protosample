@@ -17,7 +17,7 @@ export let config: Config = {
 
     framework: 'jasmine2',
 
-    specs: ['F:/Protractor_feb/protractor-min/src/spec/example.spec.ts'],
+    specs: ['F:/Protractor_feb/protractor-sample/src/spec/example.spec.ts'],
 
     jasmineNodeOpts: {
         showColors: true,
