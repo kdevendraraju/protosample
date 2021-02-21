@@ -27,7 +27,7 @@ describe('TODO', () => {
             browser.wait(EC.visibilityOf(ele))
             // Printing normal arr
             console.log('Now check this')
-            let eleLoc : any;
+            let eleLoc = page.getNewtext();
             console.log(eleLoc);
             console.log('Now check before ');
 
